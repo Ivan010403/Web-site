@@ -1,0 +1,16 @@
+.carousel {
+    padding: 0;
+}
+
+.carousel {
+    max-height: 500px;
+}
+
+.carousel img {
+    object-fit: cover;
+    height: 500px;
+}
+
+.non_nav {
+    padding-top: 50px;
+}
