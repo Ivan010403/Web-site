@@ -3,14 +3,33 @@
 }
 
 .carousel {
-    max-height: 500px;
+    max-height: 650px;
 }
 
 .carousel img {
     object-fit: cover;
-    height: 500px;
+    height: 650px;
 }
 
+.under_carousel {
+    padding-top: 100px;
+}
 .non_nav {
     padding-top: 50px;
 }
+
+.element-animation {
+opacity: 0;
+transform: translateY(20px);
+}
+  
+.element-animation.element-show {
+opacity: 1;
+transition: all 2s;
+transform: translateY(0%);
+}
+
+body {
+    background: linear-gradient(to top, rgba(255,137,8,1) 21%, rgba(236,190,61,1) 37%, rgba(255,137,16,1) 56%, rgba(236,190,61,1) 77%, rgba(255,137,16,1) 98%);
+}  
+ 
