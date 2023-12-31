@@ -3,19 +3,16 @@
 }
 
 .carousel {
-    max-height: 650px;
+    max-height: 675px;
 }
 
 .carousel img {
     object-fit: cover;
-    height: 650px;
+    height: 675px;
 }
 
 .under_carousel {
     padding-top: 100px;
-}
-.non_nav {
-    padding-top: 50px;
 }
 
 .element-animation {
@@ -30,6 +27,10 @@ transform: translateY(0%);
 }
 
 body {
-    background: linear-gradient(to top, rgba(255,137,8,1) 21%, rgba(236,190,61,1) 37%, rgba(255,137,16,1) 56%, rgba(236,190,61,1) 77%, rgba(255,137,16,1) 98%);
-}  
+    background: linear-gradient(135deg, rgba(255,137,16,1) 0%, rgba(182,61,236,1) 35%, rgba(236,61,223,1) 70%, rgba(102,61,236,1) 100%);
+}
+
+.images {
+    border-radius: 50%;  /* Скругление углов изображения */
+}
  
